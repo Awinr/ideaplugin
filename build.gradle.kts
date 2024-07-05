@@ -6,6 +6,7 @@ fun environment(key: String) = providers.environmentVariable(key)
 
 plugins {
     id("java") // Java support
+//    id("org.jetbrains.intellij.platform") version "2.0.0-beta8" // 将 IntelliJ Platform Gradle 插件应用到项目
     alias(libs.plugins.kotlin) // Kotlin support
     alias(libs.plugins.gradleIntelliJPlugin) // Gradle IntelliJ Plugin
     alias(libs.plugins.changelog) // Gradle Changelog Plugin
